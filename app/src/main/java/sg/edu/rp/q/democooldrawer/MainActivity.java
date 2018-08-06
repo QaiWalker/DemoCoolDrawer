@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         drawerLayout.addDrawerListener(drawerToggle);
-        ab.setDisplayHomeAsUpEnabled(true);
+//        ab.setDisplayHomeAsUpEnabled(true);
 
         drawerItems = new String[]{"Bio", "Vaccination", "Anniversary"};
         ab = getSupportActionBar();
